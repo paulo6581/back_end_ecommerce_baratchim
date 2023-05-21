@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* fonte e cor do site */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.nav-item{
+    cursor: pointer;
+}
+
+
+/* quadrado transparente que circula o link */
+.nav-item:hover {
+    background-color: #726f6f;
+  }
+
+/* opcional: remove o sublinhado do link e a bolinha do lado*/
+a:active {
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+}
+
+
+/* link que ainda não foi visitado */
+a:link {
+    color: #333;
+}
+ 
+ /* link que foi visitado */
+ a:visited{
+    color: #333;
+}
+/* edição das frases do site */
+.frase{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* alinhando o titulo */
+.lancamentos{
+    margin-left: 80px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+/* alinhando o titulo */
+.promocoes{
+    margin-left: 80px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+ /* deixando rodape black */
+ .rodape{
+    text-align: center;
+    background-color:#d2d2d2;
+    height: 200px;
+    list-style: none;
+    padding-top: 40px;
+    margin-top: 20px;  
+}
+
+.rodape ul li a{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color:  #d2d2d2;
+    list-style-type: none;
+}

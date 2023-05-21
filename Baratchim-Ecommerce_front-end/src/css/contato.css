@@ -1,0 +1,66 @@
+/*section - default*/
+.default {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.default .section-title, .default .section-desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.default .section-title {
+    font-size: 20px;
+}
+.default .section-desc {
+    font-size: 12px;
+    color: #CCC;
+    margin-top: 10px;
+    margin-bottom: 40px;   
+}
+.default .section-body {
+   margin: auto;
+   max-width: 87.45vw;
+}
+
+/*Section - Contact US*/
+.section-contact {
+    max-width:450px;
+    margin:auto;
+    text-align:center;
+}
+.section-contact input[type=text],
+.section-contact textarea {
+    display:block;
+    width:100%;
+    height:40px;
+    border:0;
+    background:transparent;
+    border-bottom:1px solid #CCC;
+    outline:0;
+    margin-top:10px;
+}
+.section-contact textarea {
+    height:100px;
+    resize:none;
+}
+.section-contact--split {
+    display:flex;
+}
+.section-contact--split input:first-child {
+    margin-right:20px;
+}
+
+.button{
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--c-white);
+    font-size: 12px;
+    max-width: 182px;
+    font-weight: 600;
+    padding: 13px 35px;
+    border-radius: 20px;
+    margin-top: 2rem;
+    background-color: var(--c-blue);
+}

@@ -1,0 +1,44 @@
+<%- include('includes/head'); %>
+<%- include('includes/nav'); %>
+<div class="container text-white">
+    <div class="row">
+        <div class="col-lg-3"></div>
+
+        <div class="col-lg-6 my-5">
+            <h1 class="text-center">Entrar</h1>
+            <p class="text-center lead">Faça Login na sua conta</p>
+
+            <%- include('includes/messages'); %>
+
+            <div class="row" >
+                <div class="col-lg my-5">
+                    <h4 class="fw-semibold">Login</h4>
+                    <p>Se você tem conta, faça login:</p>
+
+                    <form class="sig-in" action="/login/login" method="POST">
+                        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+                        <div class="mb-5">
+                          <input type="email" class="form-control" name="email" placeholder="Email">
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="password" class="form-control" name="password" placeholder="Senha">
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn text-white fs-5" style="background-color: #579bdb;">Entrar</button>    
+                        </div>
+
+                      </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-2"></div>
+    </div>
+</div>
+<%- include('includes/footer'); %>
+
+  
