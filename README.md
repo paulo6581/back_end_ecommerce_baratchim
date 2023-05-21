@@ -15,7 +15,7 @@
     <li>Node.js</li>
     <li>Express.js</li>
     <li>JavaScript ES6</li>
-    <li>SQL: MySQL</li>
-    <li>ORM: Sequelize</li>
-    <li>Insomnia</li>
+    <li>noSQL: MongoDB</li>
+    <li>Mongoose</li>
+    <li>Bootstrap</li>
  </ul>
